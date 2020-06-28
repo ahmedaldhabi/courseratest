@@ -708,7 +708,35 @@ color: #3885ff !important;
    font-size: 18px;
     vertical-align: middle;
 } 
-     
+   
+#car1 {
+    background: url(../images/slider/home/cctv-h.jpg);
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#car2 {
+    background: url(../images/slider/home/solar-h.jpg);
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#car3 {
+    background: url(../images/slider/home/hvac-h.jpg);
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#car4 {
+    background: url(../images/slider/home/fire-h-1.jpg);
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}     
     
 } /*end media 770*/
 
@@ -742,35 +770,7 @@ color: #3885ff !important;
     margin: 0px 10px;
 }  
     
-#car1 {
-    background: url(../images/slider/home/image-asset.jpeg);
-    background-clip: border-box;
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
-#car2 {
-    background: url(../images/slider/home/solar-systems.jpg);
-    background-clip: border-box;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
-#car3 {
-    background: url(../images/slider/home/simplythebest.jpg);
-    background-clip: border-box;
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
-#car4 {
-    background: url(../images/slider/home/gas-extinguishing-systems.jpg);
-    background-clip: border-box;
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}    
-    
+
     
 } /*end media 342*/
 
