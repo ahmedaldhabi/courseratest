@@ -81,15 +81,43 @@ color: #3885ff !important;
 
 
 .bd-example {
-    padding-top: 0px;
+    padding-top: 90px;
     padding-bottom: 10px;
     margin-top: 0px;
     
     
     
 }
+#car1 {
+    background-image: url(../images/slider/home/image-asset.jpeg);
+    background-clip: border-box;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#car2 {
+    background: url(../images/slider/home/solar-systems.jpg);
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#car3 {
+    background: url(../images/slider/home/simplythebest.jpg);
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#car4 {
+    background: url(../images/slider/home/gas-extinguishing-systems.jpg);
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
 .slider-img {
-    height: 470px;
+    height: 87vh;
 }
 
 
@@ -668,7 +696,7 @@ color: #3885ff !important;
 .bd-example {
     padding-top: 0px;
     padding-bottom: 10px;
-    margin-top: 0px;
+    margin-top: 60px;
     height: auto;
 }    
     
@@ -682,8 +710,7 @@ color: #3885ff !important;
 } 
      
     
-}
-
+} /*end media 770*/
 
 
 @media (max-width: 410.00px) { 
@@ -697,9 +724,12 @@ color: #3885ff !important;
      display: inline-block;
     margin: 0px 10px;
 }    
-    
-    
+
+    .slider-img {
+    height: 79vh;
 }
+    
+} /*end media 410*/
 
 @media (max-width: 342.00px) { 
 #brand-txt {
@@ -711,7 +741,38 @@ color: #3885ff !important;
      display: inline-block;
     margin: 0px 10px;
 }  
+    
+#car1 {
+    background: url(../images/slider/home/image-asset.jpeg);
+    background-clip: border-box;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
+#car2 {
+    background: url(../images/slider/home/solar-systems.jpg);
+    background-clip: border-box;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#car3 {
+    background: url(../images/slider/home/simplythebest.jpg);
+    background-clip: border-box;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#car4 {
+    background: url(../images/slider/home/gas-extinguishing-systems.jpg);
+    background-clip: border-box;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}    
+    
+    
+} /*end media 342*/
 
 
 
@@ -732,7 +793,7 @@ color: #3885ff !important;
    
     
 
-}
+} /*end media 330*/
 
 
 
